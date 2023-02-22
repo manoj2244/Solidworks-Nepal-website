@@ -1,0 +1,21 @@
+section{
+    padding-top: 0;
+}
+
+
+/* swiper css */
+
+.swiper-button-prev{
+    color:gray !important;
+    font-size: 8px !important;
+}
+.swiper-button-next{
+    color:gray !important;
+    font-size: 8px !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    font-size: 18px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    font-size: 18px;
+}

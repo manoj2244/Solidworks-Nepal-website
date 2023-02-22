@@ -1,0 +1,245 @@
+.header{
+  background-color: #172537 !important;
+  padding: 8px 0;
+}
+
+header.stickys{
+    padding:5px 80px !important;
+    /* background-color: rgba(10, 10, 10, 0.925); */
+    background-color: #172537;
+    color: #5ffa15 !important;
+}
+header.stickys ul li a{
+
+    color: #5ffa15 !important;
+    color: whitesmoke !important;
+}
+.service-item .img img{
+    width:100%;
+}
+
+/* about boxes */
+
+/* .about-boxes {
+  background: url("../img/about-boxes-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 30px 0;
+  position: relative;
+} */
+
+/* .about-boxes::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+} */
+
+.about-boxes .container,
+.about-boxes .container-fluid {
+  position: relative;
+  z-index: 10;
+}
+
+.about-boxes .card {
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+.about-boxes .cad ig {
+height: 100% !important;
+}
+
+.about-boxes .card-icon {
+  text-align: center;
+  margin-top: -32px;
+}
+
+.about-boxes .card-icon i {
+  font-size: 32px;
+  color: #fff;
+  width: 64px;
+  height: 64px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: var(--color-primary);;
+  border-radius: 4px;
+  text-align: center;
+  border: 4px solid #fff;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.about-boxes .card-body {
+  padding-top: 12px;
+}
+
+.about-boxes .card-title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-boxes .card-title a {
+  color: #15222b;
+}
+
+.about-boxes .card-title a:hover {
+  color: var(--color-primary);;
+}
+
+.about-boxes .card-text {
+  color: #5e5e5e;
+}
+
+.about-boxes .card:hover .card-icon i {
+  background: #fff;
+  color: var(--color-primary);
+}
+
+@media (max-width: 1024px) {
+  .about-boxes {
+    background-attachment: scroll;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio-click{
+  
+  display: flex;
+    
+    margin-left: 105px;
+    margin-right: 105px;
+    flex-wrap: wrap;
+}
+.portfolio-unclick{
+  display: none;
+}
+.portfolio-item{
+  
+  width: 30%;
+  border-radius: 10px;
+  
+}
+.portfolio-item img{
+  
+  height: 246px;
+  width: 100%;
+}
+.portfolio-flters .active{
+  color: var(--color-primary);
+  transition: all 0.5s;
+  
+}
+.portfolio-flters .line{
+  transition: all 0.5s;
+}
+.portfolio-flters .line::before{
+  content: "";
+  top: 20px;
+  left: 0;
+  position: absolute;
+  height: 2px;
+  width: 45px;
+  background-color: var(--color-primary);
+  
+  
+}
+.portfolio-flters li{
+  position: relative;
+}
+/* blog images style */  
+.post-img img{
+  width: 100%;
+}
+
+.overviews ol,ul{
+  padding-left: 1rem !important;
+}
+.overviews ol li{
+  font-weight: 600;
+}
+
+/* getstarted button style */
+
+
+.but-getstarted{
+  font-size: 16px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 8px 23px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: var(--font-secondary);
+    outline: none;
+    border: none;
+}
+
+
+.button-getstarted {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 35px 10px 35px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid var(--color-primary);
+  color: var(--color-white);
+  background: var(--color-primary);
+}
+
+
+/* Hireus button css */
+
+.hire-btn {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 10px;
+  background: rgba(var(--color-primary-dark-rgb), 0.9);
+  border: none;
+  outline: none;
+  width: 25%;
+}
+
+
+/* logo first letter */
+
+.container-fluid h1::first-letter{
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 40px;
+}
+#faq{
+  margin-right: 114px;
+  margin-left: 54px;
+}
+.main-error{
+  background-color: #5e5e5e;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error h2{
+  font-size: 70px;
+}

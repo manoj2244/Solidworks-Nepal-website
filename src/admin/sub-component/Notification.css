@@ -1,0 +1,16 @@
+.notification{
+    display: block !important;
+    margin: 40px;
+}
+.message-show{
+    display: block !important;
+    margin: 40px;
+
+}
+.profile-set{
+    display: block;
+    position: absolute;
+    inset: 0px 0px auto auto;
+    margin: 0px;
+    transform: translate(-16px, 38px);
+}

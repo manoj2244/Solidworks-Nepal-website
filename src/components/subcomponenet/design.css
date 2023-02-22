@@ -1,0 +1,144 @@
+
+#design3d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 110vh;
+  background: url("/public/assets/img/3dexperience.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+.simulation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 110vh;
+  background: url("/public/assets/img/simulation.png") top center !important;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#design3d:before {
+  content: "";
+  background: rgba(13, 20, 26, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#design3d .design3d-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#design3d h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#design3d h2 {
+  color: #eee;
+  
+  font-size: 24px;
+}
+
+
+
+
+@media (min-width: 1024px) {
+  #design3d {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #design3d h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #design3d h2 {
+    font-size: 18px;
+    line-height: 24px;
+   
+  }
+}
+
+.hero-container-design{
+    text-align: center;
+    padding: 30px;
+    width: 45%;
+    background: #00000085;
+}
+.hero-container-design h2{
+   color: #52c3c3 !important;
+   font-size:28px !important ;
+   text-transform: capitalize;
+   
+}
+.plus{
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  
+}
+ .overviews li{
+  list-style: none;
+  margin: 18px;
+  font-size: 15px;
+}
+.overview h5{
+  cursor: pointer;
+  color: rgb(39, 37, 37);
+  font-weight: 900;
+}
+.overviews li:before{
+  margin-left: -25px;
+  content: "\2713";
+  color: var(--color-primary);
+  margin-right: 14px;
+  
+}
+.card-body h5{
+  letter-spacing: .2px;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #444444;
+
+}
+.card-body p{
+  font-size: 15px;
+
+}
+.main-card{
+  display: flex;
+  
+  flex-wrap: wrap;
+}
+.card{
+  transition: all 0.5s;
+  margin-right: 20px;
+}
+.card:hover{
+  box-shadow: 0 0 10px grey;
+}

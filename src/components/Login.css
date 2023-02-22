@@ -1,0 +1,252 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@100&family=Roboto:wght@100&family=Work+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mainss{
+    background-color: #7e8185;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.mainss .main-login{
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 16%), 0rem 0.2rem 1rem 0 rgb(0 0 0 / 12%);
+    width: 380px;
+    border-radius: 5px;
+    margin-top: 85px;
+   
+}
+.login{
+    
+    margin: 25px;
+}
+.login-heading{
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 16px;
+    font-weight: 700;
+    position: relative;
+    
+}
+.login-heading::before{
+    content: "";
+    position: absolute;
+    top: 19px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color:gray;
+    
+}
+.login-content{
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+.login-content .email label,.password label{
+    display: block;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    color: darkslategray;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+}
+.email input,.password input{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: all 0.1s;
+    
+
+}
+input:focus{
+    border: 2px solid gray;
+}
+input::placeholder{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+.login-content .checkbox label{
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    color: darkslategray;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    
+
+}
+
+.login-content .checkbox{
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"]{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(163, 157, 157);
+    border-radius: 4px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none !important;
+
+}
+input[type="checkbox"]:hover{
+   background-color: gray;
+}
+input[type="checkbox"]:after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    content: "\f00c";
+    font-size: 14px;
+    color:#fff;
+    display: none;
+ }
+ input[type="checkbox"]:checked{
+    background-color: #ee5684;
+    outline: none;
+    border: 2px solid #ee5684;
+   
+ }
+ input[type="checkbox"]:checked::after{
+    display: block;
+ }
+
+ .login-button{
+     width: 100%;
+     padding-top: 8px;
+     padding-bottom: 6px;
+
+ }
+ .login-button button{
+     width: 100%;
+     padding:8px;
+     color: #fff;
+     background-color: #ee5684;
+     outline: none;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: all 0.3s;
+ }
+ .login-button button:hover{
+     background-color: #e61956;
+
+}
+.forget{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.forget a{
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    color: darkslategray;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+}
+
+.or {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 12px;
+   
+}
+.or span {
+    position: relative;
+
+    top: -11px;
+    left: 45%;
+    padding: 3px;
+    border: 1px solid gray;
+    font-size: 12px;
+    border-radius: 5px;
+    z-index: 100;
+    background-color: #fff;
+}
+.or::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    z-index: 10;
+}
+.social-media{
+    text-align: center;
+}
+.social-media .fa-google{
+    border-radius: 50%;
+    padding: 6px;
+    border: 2px solid #ee5684;
+    color: #ee5684;
+    transition: all 0.4s;
+}
+.social-media .fa-google:hover{
+    color: #fff;
+    background-color: #df215a;
+}
+.social-media .fa-facebook-f{
+    border-radius: 50%;
+    padding: 6px 8px 6px 8px;
+    border: 2px solid#447ac4;
+    color: #447ac4;
+    transition: all 0.4s;
+}
+.social-media .fa-linkedin-in{
+    border-radius: 50%;
+    padding: 6px;
+    border: 2px solid#447ac4;
+    color: #447ac4;
+    transition: all 0.4s;
+}
+.social-media .fa-facebook-f:hover, .fa-linkedin-in:hover{
+    color: #fff;
+    background-color: #1f6ad3;
+}
+.social-media a{
+    margin-right: 12px;
+}
+.create{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.create p{
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    color: darkslategray;
+    font-size: 14px;
+    
+}
+.create a{
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    color: darkslategray;
+    font-size: 13px;
+    margin-left: 5px;
+    text-decoration:underline; 
+}
